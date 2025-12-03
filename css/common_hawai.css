@@ -1,0 +1,100 @@
+/*リセット */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*　全体 */
+body{
+    font-family: 'MS P明朝', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    color: #333;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* ===== header ===== */
+header{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header h1{
+    /* float: left; */
+    height: 50px;
+    width: 215px;
+}
+
+header nav{
+    width: 100%;
+    /* clear: both; */
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    /* float: left; */
+    flex: 1;
+    max-width: 240px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+header nav ul li a{
+    display: block;
+    padding: 16px;
+    background-color: #f5efef;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background-color: #f3e9e9
+}
+
+
+/* ===== main ===== */
+#main_image{
+    max-width: 980px;
+    margin: 0 auto 25px auto;
+}
+
+#wrapper{
+    max-width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main{
+    width: 980px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+main h2{
+    margin-bottom: 0 0 25px;
+    padding: 10px;
+    /* borderの要素のオススメ順番: <太さ> <線の種類> <色>; */
+    border: medium solid #ec91ac;
+}
+
+main h3{
+    margin: 10px 0;
+    padding-left: 10px;
+    /* borderの要素のオススメ順番: <太さ> <線の種類> <色>; */
+    border-left: 10px solid #ec91ac;
+}
+
+/* ===== footer ===== */
+footer{
+    padding: 15px 0;
+    background-color: #f5efef;
+    text-align: center;
+}

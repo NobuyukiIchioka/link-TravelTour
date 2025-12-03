@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#point{
+    margin: 0 30px;
+}
+
+#point section{
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+#point figure{
+    float: right;
+    margin-left: 15px;
+}
+
+#point figcaption{
+    margin-top: 10px;
+    text-align: center;
+    color: #0BA29A;
+}
+
+#news{
+    width: 980px;
+    float: left;
+}
+
+#news dt{
+    float: left;
+    margin: 0 10px 10px 0;
+} 
+
+#news dd{
+    margin-bottom: 10px
+}

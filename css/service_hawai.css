@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#servicewrapper, #servicewrapper2 {
+    width: 980px;
+    float: left;
+}
+
+#servicewrapper1 {
+    margin-bottom: 25px;
+}
+
+.service{
+    width: 320px;
+    float: left;
+}
+
+.service2{
+    width: 320px;
+    float: left;
+    margin: 0 10px;    
+}

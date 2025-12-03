@@ -1,0 +1,23 @@
+.plan table{
+    width: 100%;
+    margin: 15px 0  30px;
+    border-collapse: collapse;
+}
+
+.plan th, .plan td{
+    /* border: <太さ> <線の種類> <色>の順番が推奨 */
+    border: 1px solid #cbc5c5;
+    padding: 10px;
+    text-align: left;
+}
+
+.plan th{
+    width: 10em;
+    background-color: #f5efef;
+    text-align: center;
+}
+
+.plan p{
+    font-size: 15px;
+    line-height: 18px;
+}
