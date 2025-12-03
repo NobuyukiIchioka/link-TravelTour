@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>リンクトラベル/お問い合わせ</title>
+<link href="css/contact_hawai.css" rel="stylesheet" type="text/css">
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" href="css/common_hawai.css" type="text/css">
 <!-- InstanceBeginEditable name="head" -->
@@ -36,11 +37,11 @@
     <h2>リンクトラベルおい合わせフォーム</h2>
     <form id="contact">
       <dl>
-        <dt>お名前</dt>
+        <dt>お名前<span class="attention">※必須</span></dt>
         <dd><input type="text" name="namme" id="name"></dd>
       </dl>
       <dl>
-        <dt>メールアドレス</dt>
+        <dt>メールアドレス<span class="attention">※必須</span></dt>
         <dd><input type="text" name="email" id="email"></dd>
       </dl>
        <dl>
@@ -65,12 +66,13 @@
       <dl>
         <dt>お問い合わせ内容</dt>
         <dd>
-          <textarea name="contact" id="contact" cols="30" rows="3"></textarea>
+          <textarea name="commet" id="commet" cols="" rows=""></textarea>
         </dd>
-        <div>
-          <input type="reset" id="reset" value="リセット">
-          <input type="submit" id="submit" value="送信">
-        </div>
+      </dl>
+      <div id="button">
+        <input type="reset" id="reset" value="リセット">
+        <input type="submit" id="submit" value="送信">
+      </div>
     </form>
   </main>
 <!-- InstanceEndEditable --></div>
